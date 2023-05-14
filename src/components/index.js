@@ -1,0 +1,12 @@
+export { default as Card } from './card/Card';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Contact } from './contact/Contact';
+export { default as Experience } from './experience/Experience';
+export { default as Footer } from './footer/Footer';
+export { default as Intro } from './intro/Intro';
+export { default as Portfolio } from './portfolio/Portfolio';
+export { default as Services } from './services/Services';
+export { default as Testimonials } from './testimonials/Testimonials';
+export { default as Works } from './works/Works';
+export { default as Toggle } from './toggle/Toggle';
+export { default as FloatingDiv } from './floatingDiv/FloatingDiv';
