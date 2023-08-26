@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Gumela";
+  src: url("/public/fonts/Gumela_Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+}
+
+* {
+  font-family: Gumela, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  /* box-sizing: border-box; */
+  outline: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
