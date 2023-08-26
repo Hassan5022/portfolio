@@ -23,6 +23,11 @@
   overflow: visible !important;
 }
 
+.portfolio .title {
+  text-align: center;
+  margin-top: 8px;
+}
+
 .portfolio-slider {
   margin-top: 3rem;
   width: 100%;
@@ -31,9 +36,21 @@
 .portfolio-slider .swiper-slide {
   width: 18rem !important;
 }
+
 .portfolio img {
-  width: 19rem;
+  width: 20rem;
   height: -webkit-fill-available;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio img {
+    width: 18rem;
+  }
+
+  .portfolio .title {
+    font-size: 18px;
+    margin-top: 8px;
+  }
 }

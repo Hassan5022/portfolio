@@ -20,3 +20,4 @@ export { default as Wave } from "./wave.png";
 export { default as GithubFinder } from "./githubfinder.png";
 export { default as PMS } from "./PMS.png";
 export { default as MagicGame } from "./magicgame.png";
+export { default as Youtube } from "./youtube.png";

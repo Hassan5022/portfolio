@@ -10,7 +10,7 @@ import {
   Portfolio,
   // Testimonials,
   Contact,
-  Footer
+  Footer,
 } from "./components";
 
 function App() {

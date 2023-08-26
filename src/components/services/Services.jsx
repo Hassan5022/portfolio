@@ -3,7 +3,7 @@ import "./Services.css";
 import { Card } from "..";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
+import Resume from "./Hassan's+Resume.pdf";
 import { Glasses, HeartEmoji, Humble } from "../../img";
 
 const Services = () => {
@@ -25,9 +25,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          As a dedicated professional, I offer a range of services to cater to
+          your needs. Whether you need a stunning design, a robust frontend, or
+          a reliable backend, I've got you covered.
           <br />
-          ispum is simpley dummy text of printing
+          With a strong foundation in modern technologies and a commitment to
+          delivering high-quality work, I'm here to turn your ideas into
+          reality.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -57,7 +61,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Frontend Development"}
-            detail={"HTML, CSS, MUI, JavaScript, TypeScript, React JS, Next JS"}
+            detail={
+              "HTML, CSS, MUI, Bootstrap, JavaScript, TypeScript, React JS, Next JS, Redux"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -70,7 +76,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Backend Development"}
             detail={
-              "Java, MySQL, Node JS, Express JS, MongoDB"
+              "Node JS, Express JS, SQL, Java, MySQL, MongoDB, Restful APIs, JWT, Docker"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

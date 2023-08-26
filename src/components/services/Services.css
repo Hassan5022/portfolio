@@ -4,7 +4,6 @@
   height: 30rem;
   margin-bottom: 8rem;
   margin-top: 9rem;
-  margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
 }
@@ -13,6 +12,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 45%;
   /* gap: 20px; */
 }
 
@@ -39,6 +39,7 @@
 /* right sided */
 .cards {
   position: relative;
+  width: 45%;
 }
 .cards > * {
   position: absolute;
@@ -64,10 +65,15 @@
     padding: 0;
   }
 
+  .awesome {
+    width: 100%;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
     gap: 17rem;
+    width: 100%;
   }
   .cards > * {
     position: static;
